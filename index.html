@@ -4,9 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script defer src="./js/main.js"></script>
+    <link rel="stylesheet" href="./css/styles.css">
     <title>Proyecto Coderhouse</title>
 </head>
 <body>
     <h1>Seguimiento de Gastos</h1>
+    <div>
+        <input id="presupuesto-input" placeholder="Ingresar presupuesto">
+        <button id="guardar-presupuesto">Guardar Presupuesto</button>
+        
+    </div>
+    <div>
+        <input id="gasto-nombre" placeholder="Nombre del gasto">
+        <input id="gasto-monto" placeholder="Monto del gasto" type="number">
+        <button id="agregar-gasto">Agregar Gasto</button>
+    </div>
+    <ul id="lista-gastos"></ul>
+    <div id="resumen"></div>
+    <button id="borrar-datos">Borrar Datos</button>
 </body>
 </html>
